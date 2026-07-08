@@ -103,11 +103,16 @@ p.lead {
     align-items: center;
     padding: 0;
   }
+  /* ===== FIX APPLIED HERE ===== */
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
+  /* ===== END OF FIX ===== */
   #sideNav .navbar-collapse {
     display: -ms-flexbox;
     display: flex;
